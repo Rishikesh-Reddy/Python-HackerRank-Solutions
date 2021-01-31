@@ -1,0 +1,4 @@
+n = int(input())
+N = list(map(int, input().split()))
+s = set(N)
+print(int((sum(s) * n -sum(N)) / (n-1)))
